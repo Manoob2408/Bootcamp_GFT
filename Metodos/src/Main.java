@@ -19,5 +19,11 @@ public class Main {
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(2050, Emprestimo.getTresParcelas());
         Emprestimo.calcular(4080, 5);
+
+        //Exercicio Area
+        System.out.println("Exercicio Area:");
+        Area.calculaArea(5); //Quadrado
+        Area.calculaArea(4,6); //Retângulo
+        Area.calculaArea(8,4,3); //Trapézio
     }
 }
