@@ -22,8 +22,12 @@ public class Main {
 
         //Exercicio Area
         System.out.println("Exercicio Area:");
-        Area.calculaArea(5); //Quadrado
-        Area.calculaArea(4,6); //Retângulo
-        Area.calculaArea(8,4,3); //Trapézio
+        double quadrado = Area.calculaArea(5); //Quadrado
+        double retangulo = Area.calculaArea(4,6); //Retângulo
+        double trapezio = Area.calculaArea(8,4,3); //Trapézio
+
+        System.out.println("A área do quadrado é igual a: " + quadrado);
+        System.out.println("A área do retângulo é igual a: " + retangulo);
+        System.out.println("A área do trapezio é igual a: " + trapezio);
     }
 }

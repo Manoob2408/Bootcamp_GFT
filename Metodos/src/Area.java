@@ -4,18 +4,19 @@ public class Area {
      *
      */
 
-    public static void calculaArea(double lado){
-        double area = lado * lado;
-        System.out.println("A área do quadrado é igual a: " + area);
+    public static double calculaArea(double lado){
+
+        return lado * lado;
     }
 
-    public static void calculaArea(double largura, double comprimento){
-        double area = largura * comprimento;
-        System.out.println("A área do retângulo é igual a: " + area);
+    public static double calculaArea(double largura, double comprimento){
+
+        return largura * comprimento;
     }
 
-    public static void calculaArea(double baseMaior, double baseMenor, double altura){
-        double area = ((baseMaior + baseMenor) * altura)/2;
-        System.out.println("A área do trapézio é igual a: " + area);
+    public static double calculaArea(double baseMaior, double baseMenor, double altura){
+
+        return ((baseMaior + baseMenor) * altura)/2;
+
     }
 }
