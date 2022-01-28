@@ -18,5 +18,13 @@ public class Multidimensional {
             }
             System.out.print("\n");
         }
+
+        int num = 5, count = 1;
+        while(count <= 3) {
+            ++count;
+            num += count;
+            System.out.println(count);
+        }
+        System.out.println(num);
     }
 }
